@@ -1,0 +1,57 @@
+/*
+Theme Name: Doyles electrical services Theme
+Theme URI: https://wordpress.org/themes/doyles-electrical/
+Author: the wp team
+Description: In 2023, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider.
+*/
+#menu-nav{margin-right: 30px;}
+.black-box{background:#000;}
+a.more-link {display: none;}
+.navigation.pagination{
+    justify-content: center;
+}
+.pagination .nav-links a {
+    background: #cedbec;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+	padding: 10px 15px;
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+}
+.pagination .nav-links a:hover {
+    background: #00b3fe;
+    color: #fff;
+}
+.pagination span.page-numbers.current{
+    padding: 10px 15px;
+    background: #cedbec;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav-previous, .nav-next{
+	background: #00b3fe;
+    color: #fff;
+    padding: 0px 30px;
+    line-height: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav-previous a, .nav-next a{color:#fff;}
+.nav-previous:hover, .nav-next:hover{
+	color: #fff;
+    background: #000;
+}
+.nav-previous a:hover, .nav-next a:hover{text-decoration:none;}
+.ppost div h4 a {color:#212529;}
+.ppost div h4 a:hover {text-decoration:none;}

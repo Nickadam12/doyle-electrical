@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /doyle-electrical/wp-admin/
+Allow: /doyle-electrical/wp-admin/admin-ajax.php
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: http://localhost:8080/doyle-electrical/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
